@@ -1,0 +1,346 @@
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.header1 {
+  height: 50px;
+  line-height: 50px;
+  background: #333333;
+  display: flex;
+}
+
+
+
+
+.login-area {
+  display: flex;
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 10rem;
+}
+
+.login-area p,
+h2 {
+  padding-left: 12px;
+  color: white;
+}
+
+.login-area p {
+  font-size: 15px;
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 25rem;
+  color: white;
+}
+
+.cart-icon p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.social-icons {
+  margin-left: 20rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons i {
+  margin-left: 3rem;
+  display: flex;
+  cursor: pointer;
+}
+
+.header2 {
+   background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 1.3rem;
+}
+
+.img-div {
+
+  width: 7rem;
+}
+
+.img-div img {
+  width: 100%;
+  margin-left: 9rem;
+}
+
+.search-div {
+  background: white;
+  align-items: center;
+  padding: 10px;
+  border: .2px solid;
+  border-color: gray;
+  margin-left: 15rem;
+  padding: .7rem;
+  padding-left: 1rem;
+}
+
+.search-div input {
+  color: white;
+  background: white;
+  border: none;
+
+}
+
+.search-div i {
+  color: gray;
+  padding-left: 3rem;
+}
+
+.tags-div a {
+  background: white;
+  color: #575353;
+  margin-left: 1rem;
+  text-decoration: none;
+
+}
+
+.tags-div {
+  margin-left: 17rem;
+}
+
+.card {
+  padding-top: 1rem;
+  width: 13rem;
+  align-items: center;
+ position: relative;
+  margin: 3rem;
+  background-color: #000000;
+  cursor: pointer;
+
+}
+
+.card:hover {
+  transform: scale(1.1)
+}
+
+.carts {
+  display: flex;
+  width: 100%;
+}
+
+#Heading-1 {
+  margin-top: 5rem;
+  margin-left: 45rem;
+}
+
+#cart1 {
+  margin-left: 13.4rem;
+}
+
+.card img {
+  width: 3.5rem;
+
+}
+
+.cot img {
+  width: 100%;
+}
+
+.middle-carts {
+  background-image: url("./images/brand-bg.jpg");
+  width: 200.6vh;
+  height: 70vh;
+}
+
+.middle-carts img {
+  height: 60vh;
+  margin-left: 33rem;
+}
+
+.first-cart-row {
+  display: flex;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.cart-sec-row {
+  display: flex;
+  margin-left: 10rem;
+  margin-right: 5rem;
+
+}
+
+.card2 {
+  margin-left: 1.6rem;
+  cursor: pointer;
+}
+
+.card2-1 {
+  background-color: rgb(220, 226, 231);
+  display: flex;
+  margin-left: 2rem;
+  width: 37rem;
+  height: 45vh;
+}
+
+/* .card2-1 img{
+  width: 40%;
+} */
+.card2-1-body {
+  margin-left: 3rem;
+  margin-top: 2.5rem;
+}
+
+.categoryid,
+.nameid,
+.rateId,
+.ulId {
+  color: rgb(79, 76, 76);
+}
+
+.end-cart-first {
+  display: flex;
+  margin-left: 4rem;
+}
+
+.end-cart-sec {
+  display: flex;
+  margin: 4rem;
+}
+
+.card3 {
+  margin-left: 1rem;
+  display: flex;
+  height: 20vh;
+  width: 28rem;
+
+}
+
+.card3 img {
+  height: 20vh;
+  width: 25vh;
+}
+#card31{
+  margin-right: 4rem;
+}
+.end-cart {
+  margin: 5rem;
+  margin-left: 7rem;
+}
+
+.card3-body {
+  margin-left: 4.4rem;
+}
+
+.cart-icon1 {
+  color: grey;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.heading2 {
+  display: flex;
+}
+
+.heading2 h5 {
+  color: grey;
+  margin-left: 5rem;
+}
+
+#text2 {
+  margin-left: 19.5rem;
+}
+
+#text3 {
+  margin-left: 22rem;
+}
+
+#text1,
+#text2,
+#text3 {
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.foot-one {
+  display: flex;
+  background-color: #333333;
+  height: 50vh;
+  color: white;
+  padding-bottom: 13rem;
+}
+
+.foot1 {
+  display: flex;
+
+}
+
+.foot1 p {
+  color: white;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+.foot-one {
+  padding: 3rem;
+}
+
+.footer-text-one {
+  margin-left: 7rem;
+  margin-top: 2rem;
+
+}
+
+.footer-text-one h6 {
+  font-weight: lighter;
+}
+
+#sociallinks {
+  display: flex;
+
+}
+
+.footer-text-one input {
+  background-color: #000000;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+#sociallinks i {
+  margin-top: .5rem;
+  margin-left: 1rem;
+}
+
+.pics2 {
+  margin-top: 4px;
+}
+
+.pics1 img {
+  margin-top: 1rem;
+}
+
+.foot-two {
+  display: flex;
+  background-color: #000000;
+  height: 10vh;
+  width: 100%;
+}
+
+.type-footer {
+  margin-top: 1.5rem;
+}
+
+.type-footer h6 {
+  color: white;
+  margin-left: 15rem;
+}
+
+.tag-footer {
+  margin-left: 45rem;
+}
+
+.tag-footer img {
+
+  margin-top: 1.5rem;
+}
